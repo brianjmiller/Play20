@@ -87,7 +87,7 @@ You can also specify another logback configuration file via a System property.
 
 ### Using `-Dlogger.resource`
 
-Specify another loback configuration file to be loaded from the classpath:
+Specify another logback configuration file to be loaded from the classpath:
 
 ```
 $ start -Dlogger.resource=conf/prod-logger.xml
@@ -103,7 +103,7 @@ $ start -Dlogger.file=/opt/prod/prod-logger.xml
 
 ### Using `-Dlogger.url`
 
-Specify another loback configuration file to be loaded from an URL:
+Specify another logback configuration file to be loaded from an URL:
 
 ```
 $ start -Dlogger.url=http://conf.mycompany.com/logger.xml
